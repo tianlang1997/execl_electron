@@ -1,0 +1,23 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+	"package": "electron-packager . HelloWorld --win --out ../HelloWorldApp --arch=x64 --version=1.0.0 --electron-version=1.4.13"
+  },
+  "repository": "https://github.com/tianlang1997/execl_electron.git",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.7"
+  }
+}
